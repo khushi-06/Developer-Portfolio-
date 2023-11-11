@@ -16,10 +16,10 @@ import {
 
 // Nav list
 const navList = [
-  { title: "about", icon: <HiOutlineBookOpen />, position: 0.7 },
-  { title: "team", icon: <HiOutlineUsers />, position: 2.1 },
-  { title: "stack", icon: <HiOutlineChip />, position: 6.7 },
-  { title: "portfolio", icon: <HiOutlineDesktopComputer />, position: 7.8 },
+  { title: "About Me", icon: <HiOutlineBookOpen />, position: 0.7 },
+  { title: "Projects", icon: <HiOutlineUsers />, position: 2.1 },
+  { title: "Skills", icon: <HiOutlineChip />, position: 6.7 },
+  { title: "Resume", icon: <HiOutlineDesktopComputer />, position: 7.8 },
   { title: "credits", icon: <HiOutlineCollection />, position: 9 },
 ];
 

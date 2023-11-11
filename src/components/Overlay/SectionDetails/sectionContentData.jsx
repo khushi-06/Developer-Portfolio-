@@ -11,8 +11,52 @@ const sectionsContentData = [
         I'm a skilled Frontend Developer passionate about crafting engaging and user-friendly web experiences.
          With a keen eye for design and a strong command of HTML, CSS, and JavaScript, I specialize in building responsive and intuitive interfaces.
       </p>
+      
     ),
+
+     content : (<div className="member-links">
+          <a
+            aria-label="linkedin"
+            onMouseEnter={() => updateCursorType("hover")}
+            onMouseLeave={() => updateCursorType("pointer")}
+            target="_blank"
+            href={member.links[0].link}
+          >
+            <FaLinkedin />
+          </a>
+          <a
+            aria-label="github"
+            onMouseEnter={() => updateCursorType("hover")}
+            onMouseLeave={() => updateCursorType("pointer")}
+            target="_blank"
+            href={member.links[1].link}
+          >
+            <FaGithubSquare />
+          </a>
+          <a
+            aria-label="twitter"
+            onMouseEnter={() => updateCursorType("hover")}
+            onMouseLeave={() => updateCursorType("pointer")}
+            target="_blank"
+            href={member.links[2].link}
+          >
+            <FaTwitterSquare />
+          </a>
+          <a
+            aria-label="portfolio"
+            onMouseEnter={() => updateCursorType("hover")}
+            onMouseLeave={() => updateCursorType("pointer")}
+            target="_blank"
+            href={member.links[3].link}
+          >
+            <FaExternalLinkAlt />
+          </a>
+        </div> )
+    
   },
+
+
+  
   { key: "team", title: "PROJECTS", content: <TeamCarousel /> },
   {
     key: "credits",

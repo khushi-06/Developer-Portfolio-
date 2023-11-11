@@ -5,17 +5,15 @@ import TeamCarousel from "../TeamCarousel";
 const sectionsContentData = [
   {
     key: "about",
-    title: "About us",
+    title: "ABOUT ME",
     content: (
       <p>
-        Welcome to our 3D portfolio, created during Voyage #43 on the Chingu
-        platform! This experience helped us boost our confidence and develop our
-        soft and technical skills, gearing us up for future challenges. Check it
-        out and witness the amazing outcome of our teamwork! 📱✨🎉
+        I'm a skilled Frontend Developer passionate about crafting engaging and user-friendly web experiences.
+         With a keen eye for design and a strong command of HTML, CSS, and JavaScript, I specialize in building responsive and intuitive interfaces.
       </p>
     ),
   },
-  { key: "team", title: "Our team", content: <TeamCarousel /> },
+  { key: "team", title: "PROJECTS", content: <TeamCarousel /> },
   {
     key: "credits",
     title: "Credits",

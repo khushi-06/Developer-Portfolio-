@@ -21,7 +21,7 @@ export function WorkStation() {
             onClick={() => handleTabClick(1)}
             className={activeTab === 1 ? "active" : ""}
           >
-            Danney
+            Hello
             <a target="_blank" href="https://danneytrieu.design/">
               <MdOutlineOpenInNew />
             </a>
@@ -30,7 +30,7 @@ export function WorkStation() {
             onClick={() => handleTabClick(2)}
             className={activeTab === 2 ? "active" : ""}
           >
-            Sean
+            hey
             <a target="_blank" href="https://seantai.dev/">
               <MdOutlineOpenInNew />
             </a>

@@ -23,7 +23,7 @@ const TeamCarouselItem = ({ member }) => {
       <div className="member-details">
         <p>{member.name}</p>
         <p>{member.Detail}</p>
-        {/* <div className="member-links">
+        { <div className="member-links">
           <a
             aria-label="linkedin"
             onMouseEnter={() => updateCursorType("hover")}
@@ -60,7 +60,7 @@ const TeamCarouselItem = ({ member }) => {
           >
             <FaExternalLinkAlt />
           </a>
-        </div> */}
+        </div> }
       </div>
     </div>
   );

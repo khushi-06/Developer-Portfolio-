@@ -13,54 +13,11 @@ const sectionsContentData = [
       </p>
       
     ),
-
-     content : (<div className="member-links">
-          <a
-            aria-label="linkedin"
-            onMouseEnter={() => updateCursorType("hover")}
-            onMouseLeave={() => updateCursorType("pointer")}
-            target="_blank"
-            href={member.links[0].link}
-          >
-            <FaLinkedin />
-          </a>
-          <a
-            aria-label="github"
-            onMouseEnter={() => updateCursorType("hover")}
-            onMouseLeave={() => updateCursorType("pointer")}
-            target="_blank"
-            href={member.links[1].link}
-          >
-            <FaGithubSquare />
-          </a>
-          <a
-            aria-label="twitter"
-            onMouseEnter={() => updateCursorType("hover")}
-            onMouseLeave={() => updateCursorType("pointer")}
-            target="_blank"
-            href={member.links[2].link}
-          >
-            <FaTwitterSquare />
-          </a>
-          <a
-            aria-label="portfolio"
-            onMouseEnter={() => updateCursorType("hover")}
-            onMouseLeave={() => updateCursorType("pointer")}
-            target="_blank"
-            href={member.links[3].link}
-          >
-            <FaExternalLinkAlt />
-          </a>
-        </div> )
-    
   },
-
-
-  
   { key: "team", title: "PROJECTS", content: <TeamCarousel /> },
   {
     key: "credits",
-    title: "Credits",
+    title: "SKILLS",
     content: (
       <ul className="credits">
         <li>

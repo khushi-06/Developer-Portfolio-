@@ -114,9 +114,9 @@ const SectionDetails = () => {
                     onMouseLeave={() => updateCursorType("pointer")}
                     target="_blank"
                     className="section-btn"
-                    href="https://github.com/chingu-voyages/v43-tier3-team-29"
+                    href="https://www.linkedin.com/in/khushi-gupta6/"
                   >
-                    github repo <HiOutlineArrowRight />
+                    LinkedIn Profile <HiOutlineArrowRight />
                   </a>
                 </motion.div>
               </motion.div>

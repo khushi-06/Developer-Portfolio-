@@ -42,15 +42,7 @@ const TeamCarouselItem = ({ member }) => {
           >
             <FaGithubSquare />
           </a>
-          <a
-            aria-label="twitter"
-            onMouseEnter={() => updateCursorType("hover")}
-            onMouseLeave={() => updateCursorType("pointer")}
-            target="_blank"
-            href={member.links[2].link}
-          >
-            <FaTwitterSquare />
-          </a>
+        
           <a
             aria-label="portfolio"
             onMouseEnter={() => updateCursorType("hover")}

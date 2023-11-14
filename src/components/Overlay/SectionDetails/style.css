@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300&display=swap');
+
+*{
+  font-family: 'Inconsolata', monospace;
+}
+
+
+
 .section-container {
   padding: 0 2rem;
   position: absolute;
@@ -7,9 +15,9 @@
 }
 
 .section-overlay {
-  width: 37.5rem;
+  width: 57.9rem;
   border-radius: 1.5rem;
-  padding: 2rem 3rem;
+  padding: 2rem 3rem;       
   display: flex;
   flex-direction: column;
   row-gap: 6.25rem;

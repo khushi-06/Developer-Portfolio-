@@ -42,6 +42,9 @@ const TeamCarouselItem = ({ member }) => {
           >
             <FaGithubSquare />
           </a>
+
+
+          
         
           <a
             aria-label="portfolio"
